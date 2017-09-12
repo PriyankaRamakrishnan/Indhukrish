@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int a,b,c;
 printf("\nEnter a");
@@ -15,5 +15,4 @@ elseif(b>a&&b>c)
 printf("\b is big");
 else
 printf("\c is big");
-getch();
 }
