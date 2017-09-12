@@ -10,9 +10,9 @@ scanf("%d",&b);
 printf("\nenter c");
 scanf("%d",&c);
 if(a>b&&a>c)
-printf("\a is big");
+printf("\na is big");
 elseif(b>a&&b>c)
-printf("\b is big");
+printf("\nb is big");
 else
-printf("\c is big");
+printf("\nc is big");
 }
