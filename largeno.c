@@ -3,16 +3,13 @@
 int main()
 {
 int a,b,c;
-printf("\nEnter a");
-scanf("%d",&a);
-printf("\nenter b");
-scanf("%d",&b);
-printf("\nenter c");
-scanf("%d",&c);
-if(a>b&&a>c)
+printf("\nenter a,b,c value");
+scanf("%d%d%d",&a,&b,&c);
+if((a>b)&&(a>c))
 printf("\na is big");
-elseif(b>a&&b>c)
+else if((b>a)&&(b>c))
 printf("\nb is big");
 else
 printf("\nc is big");
+  getch();
 }
