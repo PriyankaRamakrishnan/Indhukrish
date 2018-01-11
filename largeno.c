@@ -6,10 +6,10 @@ int a,b,c;
 printf("\nenter a,b,c value");
 scanf("%d%d%d",&a,&b,&c);
 if((a>b)&&(a>c))
-printf("\na is big");
+printf("\na %d is big",a);
 else if((b>a)&&(b>c))
-printf("\nb is big");
+printf("\nb %d is big",b);
 else
-printf("\nc is big");
+printf("\nc %d is big",c);
   getch();
 }
