@@ -9,9 +9,13 @@ scanf("%d",&N);
 printf("\nenter the value of K:");
 scanf("%d",&K);
 for(i=1;i<=N;i++)
+{
 printf("%d",a[i]);
+}
 for(i=1;i<=K;i++)
+{
 sum=sum+a[i];
-printf("%d",sum);
+}
+printf("\n%d",sum);
 getch();
 }
