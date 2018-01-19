@@ -2,7 +2,14 @@
 #include<conio.h>
 void main()
 {
-int a[100];
-printf("\nenter a num:");
-scanf("%d",&a[]);
-for(i=0;i<=
+int count=0,n;
+printf("\nEnter the num");
+  scanf("%d",&n);
+  while(n!=0)
+  {
+    n=n/10;
+    ++count;
+  }
+  printf("\ncount %d",count);
+  getch();
+}
