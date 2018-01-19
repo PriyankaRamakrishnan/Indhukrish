@@ -3,11 +3,12 @@
 #include<conio.h>
 void main()
 {
-int a,p,result;
+long long a,p,result;
 printf("\nenter the num");
-scanf("%d",&a);
+scanf("%lld",&a);
 printf("\nenter the power val");
-scanf("%d",&p);
+scanf("%lld",&p);
 result=pow(a,p);
-printf("%d",result);
+printf("%lld",result);
+  getch();
 }
