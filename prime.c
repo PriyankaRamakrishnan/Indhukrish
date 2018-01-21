@@ -9,10 +9,10 @@ for(i=1;i<=n;i++)
 {
 if(n%i==0)
 {
- c++;
+ count++;
  }
 }
- if(c==2)
+ if(count==2)
  printf("\n%d is prime");
  else
  printf("\n%d is not prime");
