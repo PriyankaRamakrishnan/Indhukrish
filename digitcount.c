@@ -11,5 +11,5 @@ void main()
     if(isdigit(a[i])==1)
     count++;
   }
-  printf("\nthe no.of lines in the para :%d",count);
+  printf("\nthe no.of digits :%d",count);
 }
