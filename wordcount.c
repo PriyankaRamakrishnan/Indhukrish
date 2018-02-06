@@ -5,7 +5,7 @@ void main()
   int count;
   printf("\nEnter any text or sentenses :");
   gets(a);
-  for(char i=0;i!='\o';i++)
+  for(char i=0;i!='\0';i++)
   {
     if(a[i]==' ')
     count++;
