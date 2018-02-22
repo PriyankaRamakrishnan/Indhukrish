@@ -19,7 +19,7 @@ int main()
     }
   
     if(f==0)
-        printf("%d is a number that is the power of 2.",num);
+        printf("%d is a power of 2.",num);
     else
         printf("%d is not the power of 2.",num);
       
